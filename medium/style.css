@@ -1,0 +1,93 @@
+.nav {
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+li a {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 25px;
+
+}
+
+button {
+    background-color: black;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+button a {
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.line {
+    text-decoration: none;
+}
+
+.topbar {
+    border: 1px solid black;
+    height: 3px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(219, 223, 31), rgb(240, 237, 96), yellow, rgb(243, 225, 64), rgb(233, 220, 45), rgb(214, 201, 18), rgb(232, 248, 10));
+
+}
+
+a {
+    color: black;
+
+}
+.medium{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    margin-left: 50px;
+}
+h1{
+    font-size: 100px;
+}
+.foot a{
+    color: rgb(163, 160, 160);
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+/*our story css*/
+
+.ourstorynav{
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100px;
+}
+.ourstorydiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
